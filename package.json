@@ -1,0 +1,27 @@
+{
+  "name": "xx142-b2.exe",
+  "version": "1.0.0",
+  "description": "ghosts",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "levels": "node ./levels-compiler",
+    "zip": "node ./scripts/zip.js"
+  },
+  "author": "Rohan",
+  "license": "ISC",
+  "devDependencies": {
+    "archiver": "^3.1.1",
+    "cheerio": "^1.0.0-rc.3",
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.3.0",
+    "fast-xml-parser": "^3.12.20",
+    "fernandez-polygon-decomposition": "^1.1.1",
+    "html-minifier": "^4.0.0",
+    "mkdirp": "^0.5.1",
+    "prettier": "^1.18.2",
+    "prettysize": "^2.0.0",
+    "csso": "^3.5.1",
+    "terser": "^4.3.1"
+  }
+}
